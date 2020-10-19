@@ -7,11 +7,10 @@ on:
 
 jobs:
   test:
+    name: testCode
     runs-on: ubuntu-latest
     steps:
-      # Clone this repo
-#      - name: "Checkout Repo"
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
       - name: 'Install Node'
         uses: actions/setup-node@v1
       - name: Install mocha
@@ -20,3 +19,4 @@ jobs:
         run: npm install
       - name: "Run Test"
         run: mocha test.js
+
