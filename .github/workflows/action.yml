@@ -9,6 +9,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      # Clone this repo
       - name: Checkout
         uses: actions/checkout@v2
       - name: 'Install Node'
