@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Clone this repo
-      - name: Checkout
+      - name: "Checkout Repo"
         uses: actions/checkout@v2
       - name: 'Install Node'
         uses: actions/setup-node@v1
