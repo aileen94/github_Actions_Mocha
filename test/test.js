@@ -5,7 +5,7 @@ var should = require('mocha-should')
 describe('Temperature Conversion', function() {
   describe('multiply', function() {
     it('should return 40', function() {
-        assert.equal(40, convert.multiply(20,4));
+        assert.equal(40, convert.multiply(20,2));
     });
     it('should return 100', function() {
        assert.equal(100, convert.multiply(25,4));

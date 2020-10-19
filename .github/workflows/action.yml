@@ -22,3 +22,5 @@ jobs:
         run:  mocha test/test.js
       - name: "Run other tests"
         run:  mocha test/otherTest.js
+      - name: my-step
+        run: echo "Hello World!"
