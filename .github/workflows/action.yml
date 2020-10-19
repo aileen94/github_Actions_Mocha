@@ -4,11 +4,7 @@ on:
   push:
     branches:
       - master
- env:
-   APP_NAME: github_Actions_Mocha
-description: "Test Code"
 jobs:
-
   testCode:
     runs-on: ubuntu-latest
     steps:
