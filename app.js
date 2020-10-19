@@ -6,7 +6,9 @@ if(!Number.isInteger(a) || !Number.isInteger(b)){
         }
 return a*b;
 }
-
+    let dummy = function dummy(){
+		return "Hello";
+	}
 
 convert.add=function(a,b,c,d){
 if(!Number.isInteger(a) || !Number.isInteger(b)|| !Number.isInteger(c)|| !Number.isInteger(d)){
