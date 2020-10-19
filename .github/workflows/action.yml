@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+ env:
+   APP_NAME: github_Actions_Mocha
+description: "Test Code"
 jobs:
 
   testCode:
@@ -14,10 +17,10 @@ jobs:
       - name: 'Install Node'
         uses: actions/setup-node@v1
       - name: Install mocha
-        run: npm install -g mocha
+        run:  npm install -g mocha
       - name: 'install should'
-        run: npm install mocha-should 
+        run:  npm install mocha-should --save-dev
       - name: Install dependencies
-        run: npm install
+        run:  npm install
       - name: "Run Test"
-        run: mocha test/test.js
+        run:  mocha test/test.js
