@@ -1,11 +1,12 @@
-name: "GitHub Actions Test"
+name: GitHub Actions Test
+
 on:
-  pull_request:
+  push:
     branches:
       - master
 jobs:
-  test:
-    name: testCode
+
+  testCode:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
