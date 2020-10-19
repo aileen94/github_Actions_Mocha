@@ -5,6 +5,6 @@ var result=40
 describe('Temperature Conversion', function() {
 
    it('should return 40', function() {
-          assert.equal(40, result);
+          assert.equal(42, result);
       });
 });
