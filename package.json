@@ -1,9 +1,29 @@
 {
+  "name": "github_Actions_Mocha",
+  "version": "1.0.0",
+  "description": "test repo for mocha test in Github Actions.",
+  "main": "test.js",
   "scripts": {
-    "test": "test.js"
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aileen94/github_Actions_Mocha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://https://github.com/aileen94/github_Actions_Mocha.git/issues"
+  },
+  "homepage": "https://https://github.com/aileen94/github_Actions_Mocha.git#readme",
+  "dependencies": {
+    "aws-sdk": "^2.767.0",
+    "chai": "^4.2.0",
+    "sinon": "^9.2.0",
+    "sinon-chai": "^3.5.0"
   },
   "devDependencies": {
-    "should": "^13.2.3",
-    "sinon": "^9.2.0"
+    "aws-sdk-mock": "^5.1.0"
   }
 }
