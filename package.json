@@ -2,7 +2,7 @@
   "name": "github_Actions_Mocha",
   "version": "1.0.0",
   "description": "test repo for mocha test in Github Actions.",
-  "main": "test.js",
+  "main": "app.js",
   "scripts": {
     "test": "mocha test/"
   },
