@@ -1,6 +1,6 @@
 let convert = require('../app.js')
 let assert = require('assert');
-var should = require('should')
+var should = require('mocha-should')
 
 describe('Temperature Conversion', function() {
   describe('multiply', function() {
