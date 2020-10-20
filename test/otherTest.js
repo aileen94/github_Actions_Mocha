@@ -16,8 +16,8 @@ describe('Temperature Conversion', function() {
    it('check stub persist', async () => {
        expect('Hello').to.equal( app.dummy2() );
        var stub = sinon.stub(app, 'dummy2');
-       stub.returns('Hello2');
-       expect('Hello2').to.equal( app.dummy2() );
+       stub.returns('This is a test');
+       expect('This is a test').to.equal( app.dummy2() );
        stub.restore();
     });
 });
