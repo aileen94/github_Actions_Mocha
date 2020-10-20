@@ -18,3 +18,4 @@ return convert.multiply(a,b) +c+d;
 }
 
 module.exports = convert;
+module.exports.dummy2 = dummy;
