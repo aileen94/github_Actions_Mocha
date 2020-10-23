@@ -20,8 +20,11 @@ jobs:
       - name: "Run calculationTest"
         run:  mocha test/test.js
       - name: "Run other tests"
-        run:  mocha test/otherTest.js
-      - name: "run existing tests"
-        run: npm test
+#        run:  mocha test/otherTest.js
+#      - name: "run existing tests"
+#        run: npm test
+      - name: My backup step
+        if: ${{ failure() }}
+        run: echo "Hello World!"
       - name: my-step
         run: echo "Hello World!"

@@ -17,7 +17,7 @@ describe('Temperature Conversion', function() {
        expect('Hello').to.equal( app.dummy2() );
        var stub = sinon.stub(app, 'dummy2');
        stub.returns('This is a test');
-       expect('This is a test').to.equal( app.dummy2() );
+       expect('This is a test555').to.equal( app.dummy2() );
        stub.restore();
     });
 });
