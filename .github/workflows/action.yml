@@ -20,7 +20,7 @@ jobs:
       - name: "Run calculationTest"
         run:  mocha test/test.js
       - name: "Run other tests"
-#        run:  mocha test/otherTest.js
+        run:  mocha test/otherTest.js
 #      - name: "run existing tests"
 #        run: npm test
       - name: My backup step
